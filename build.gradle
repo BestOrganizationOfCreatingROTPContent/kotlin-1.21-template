@@ -88,8 +88,8 @@ configurations {
 
 repositories {
     maven {
-        name "Unofficial RotP Maven"
-        url "https://raw.githubusercontent.com/BestOrganizationOfCreatingROTPContent/1.21-maven/main"
+        name "RotP Maven"
+        url "https://raw.githubusercontent.com/StandoByte/RotP-maven/1.21.1"
 
         metadataSources {
             mavenPom()
@@ -105,7 +105,7 @@ repositories {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "com.github.standobyte.jojo_ripples:RipplesOfThePast-NeoForge-1.21.1:${ripples_version}"
+    implementation "standobyte.jojo:RipplesOfThePast-NeoForge:${ripples_version}"
     implementation 'thedarkcolour:kotlinforforge-neoforge:5.10.0'
 //    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
